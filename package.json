@@ -1,0 +1,22 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Create a calculator web app by using express.js with npm.js.",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebRey/calculator-app.git"
+  },
+  "author": "Rebecca Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebRey/calculator-app/issues"
+  },
+  "homepage": "https://github.com/RebRey/calculator-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
