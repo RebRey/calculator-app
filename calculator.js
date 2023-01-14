@@ -27,8 +27,15 @@ app.get("/", function (req, res) {
 
 // STEP 7: Add an app.post method to handle any post requests (needed for forms)
 app.post("/", function (req, res) {
-    console.log(req.body);
-  res.send("Thanks for posting that!");
+    // STEP 10: Make the calculator add two numbers the .num1 and .num2 is from the name of the input in the index.html file
+    var num1 = Number(req.body.num1);
+    var num2 = Number(req.body.num2);
+
+    // STEP 11: Calculate the result by adding both numbers.
+    var result = num1 + num2;
+
+    // STEP 12: display a message with the result
+  res.send("The result of the calculation is " + result);
 });
 
 // STEP 5: Spin up server on port 3000 with app.listen
